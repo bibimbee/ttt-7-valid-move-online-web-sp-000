@@ -15,7 +15,7 @@ def on_board?(Integer)
   end
 end
 
-if (position_taken?(board,index)) == false && (on_board?(integer)) == true
+if (position_taken?(board,index)) == false && (on_board?(Integer)) == true
   return true
 else
   return false
