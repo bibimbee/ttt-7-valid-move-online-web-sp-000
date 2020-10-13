@@ -15,7 +15,7 @@ def on_board?(user_input)
   end
 end
 
-if (position_taken?(board,index)) == false && (on_board?(number)) == true
+if (position_taken?(board,index)) == false && (on_board?(use_input)) == true
   return true
 else
   return false
