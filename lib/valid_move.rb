@@ -14,5 +14,3 @@ def on_board?(integer)
     return false
   end
 end
-
-
